@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" type="text/css" href="css/main.css">
+        <meta name = "viewport" content="width=device-width,initial-scale-1">
+        <title>
+            first m 
+        </title>
+
+    </head>
+    <body class="body">
+        <div class="container"></div>
+            <header class="header">
+                <div class="header__container">
+                    <div class="logo">5 Рецептов из яблоками</div>
+                    <div class="header__menu menu">
+                        
+                        <div class="menu__icon">
+                            <span></span>
+                        </div>
+                        
+                        <nav class="menu__body">
+                            
+                            <ul class="menu__list">
+                                <li><a data-goto=".page__section1" href="#content" class="menu_link"> Главная</a></li>
+                                <li><a data-goto=".page__section2" href="#galery" class="menu_link"> Галерея</a></li>
+                                <li><a data-goto=".page__section3" href="#footer" class="menu_link"> Контакты</a></li>
+                                <li><a href="#" class="menu_link"> Рецепты</a>
+                                    <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a href="recipt1.html" class="menu__sub-link">Штрудель  </a> </li>
+                                    <li><a href="recipt2.html" class="menu__sub-link">Джем с яблоками и маракуей </a> </li>
+                                    <li><a href="recipt3.html" class="menu__sub-link">Шарлотка </a> </li>
+                                    <li><a href="recipt4.html" class="menu__sub-link">Пирожки </a> </li>
+                                    <li><a href="recipt5.html" class="menu__sub-link">Яблочный крамбл </a> </li>
+                                </ul>
+                                </li>
+                                <li><a href="" class="menu_link">что то</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            
+            <div class="main page__section1">
+                <div class="flex_items">
+                <a name="content"></a>
+                    <div id='obtec' class="flex_item"> 
+                          <img src="img/apple_1.jpg" 
+                          alt="яблоко 1" > <form action="recipt1.html" target="_blank"> <button id="btn">Штрудель</button> </form>
+                         </div>
+
+                         <div id='obtec' class="flex_item"> 
+                            <img src="img/apple_2.jpg" 
+                            alt="яблоко 2" > <form action="recipt2.html" target="_blank"> <button id="btn">Джем с яблоками и маракуей</button> </form>
+                           </div>
+                           <div id='obtec' class="flex_item"> 
+                            <img src="img/apple_3.jpg" 
+                            alt="яблоко 3" > <form action="recipt3.html" target="_blank"> <button id="btn">Шарлотка</button> </form>
+                           </div>
+                           <div id='obtec' class="flex_item"> 
+                            <img src="img/apple_4.jpg" 
+                            alt="" > <form action="recipt4.html" target="_blank"> <button id="btn">Пирожки</button> </form>
+                           </div>
+                           <div id='obtec' class="flex_item"> 
+                            <img src="img/apple_5.jpg" 
+                            alt="" > <form action="recipt5.html" target="_blank"> <button id="btn">Яблочный крамбл</button> </form>
+                           </div>
+
+                   
+                
+                </div>
+                
+
+            </div>
+            <div class="galery page__section2">
+                <div class="foto_logo">Gallery
+                </div>
+
+                <div class="flex_galery">
+                    <a name="galery"></a>
+                    <div class="galery_item"> 
+                        <img id="img" src="apple_1.jpg" id="imgOne" onclick="changeImage() ">
+                    </div>
+                    <div class="galery_item"> 
+                        <img id="img" src="apple_1.jpg" onclick="this.src='apple_3.jpg' ">
+                    </div>
+                    <div class="galery_item"> 
+                        <img id="img" src="apple_1.jpg" onclick="this.src='apple_3.jpg' ">
+                    </div>
+                    <div class="galery_item"> 
+                        <img id="img" src="apple_1.jpg" onclick="this.src='apple_3.jpg' ">
+                    </div>
+                    <div class="galery_item"> 
+                        <img id="img" src="apple_1.jpg" onclick="this.src='apple_3.jpg' ">
+                    </div>
+                </div>
+
+            </div>
+            <footer class="footer page__section3" >
+                <a name="footer"></a>
+                <ul class="social-icons">
+                    <il><a class="social-icon-vk"  href="https://vk.com/clusterfuckk" title="_blank" rel="noopener" ></a> </il>
+                    <il><a class="social-icon-ins"  href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fblizky_brother%3Futm_medium%3Dcopy_link&cc_key=" title="_blank" rel="noopener" ></a> </il>
+                    <il><a class="social-icon-github"  href="https://github.com/mrwhiteered" title="_blank" rel="noopener" ></a> </il>
+                </ul>
+            </footer>
+            
+        </div>
+
+    </body>
+    <script
+    src="js/resipt.js">
+        
+</script>
+</html>
