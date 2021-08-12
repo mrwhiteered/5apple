@@ -105,3 +105,19 @@ if(menuLinks.length>0) {
 }
 /* ---------------------------- */
  
+
+
+/*----- Смена картинок в галерее ----- */
+
+const changers =document.querySelectorAll('.galery_item');
+if(changers.length>0) {
+    for (let i=0; i<changers.length;i++) {
+        const changer = changers[i];
+        changer.addEventListener("click", function(e){
+            changer.classList.toggle('_change');
+
+        });
+        }
+    }
+
+ /* ---------------------- */   
