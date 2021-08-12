@@ -41,6 +41,7 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .body {
     height: 100%;
+    background: #203d7244;
     background-image: url(img/apple_font.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
