@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         flex-direction: column;
 
     }
-    #btn{
+    button{
         font-size: 16px;
     }
     
@@ -128,7 +128,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .menu_item :hover{
     box-shadow: crimson;
 }
-#btn:hover{
+button:hover{
     text-decoration:underline ;
 }
 
@@ -266,7 +266,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
     
 }
-#btn{
+button{
     background-color: rgb(183, 182, 250);
     border: 2px solid #6a85b6;
     padding: 5px;
