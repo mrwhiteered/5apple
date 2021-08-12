@@ -111,10 +111,13 @@ if(menuLinks.length>0) {
 
 const changers =document.querySelectorAll('.galery_item');
 if(changers.length>0) {
-    for (let i=0; i<changers.length;i++) /* Перебор всех жлементов 
-    с классмом galery_item */{
-        let changer = changers[i]; /* Запись в переменную одного элемента */
-        changer.addEventListener("click", function(e){ /* при клике на элемент срабатывает 
+    for (let i=0; i<changers.length;i++) 
+   /* Перебор всех жлементов с классмом galery_item */
+   {
+        let changer = changers[i]; 
+        /* Запись в переменную одного элемента */
+        changer.addEventListener("click", function(e){ 
+            /* при клике на элемент срабатывает 
             функция добавляющая/убирающая класс _change  */
             changer.classList.toggle('_change');
 
